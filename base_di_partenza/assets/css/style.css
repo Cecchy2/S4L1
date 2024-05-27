@@ -329,7 +329,7 @@ footer a {
        }
        iframe{
         display: inline-block;
-        width: 45%;
+        width: 50%;
         height: 300px;
         vertical-align: middle;
        }
@@ -338,5 +338,6 @@ footer a {
        vertical-align: middle;
        border-radius: 20px;
        }
+       in
 
     }
