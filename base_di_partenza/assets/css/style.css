@@ -327,5 +327,16 @@ footer a {
        section{
         width: 50%;
        }
+       iframe{
+        display: inline-block;
+        width: 45%;
+        height: 300px;
+        vertical-align: middle;
+       }
+       section{display: inline-block;
+       width: 45%;
+       vertical-align: middle;
+       border-radius: 20px;
+       }
 
     }
