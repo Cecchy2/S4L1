@@ -220,7 +220,7 @@ footer a {
         font-size: 2rem;
     }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 768px) {
     main{
         padding-left: 40px;
     }
@@ -292,95 +292,40 @@ footer a {
         font-size: 2.4rem;
     }
 
-    @media screen and (min-width: 1400px) {
-        main{
-            padding-left: 40px;
-        }
+    @media screen and (min-width: 1200px) {
         header{
+            text-align: unset;
+            height: 100px;
+        }
+       header div, header nav{
+        display: inline-block;       
+       }
+       header nav{
+        position: relative;
+        left: 310px;
+        vertical-align: middle;
+       }
+       header div img, header div p{
         display: inline-block;
-        width: 97vw;
-        height: 100px;
-        text-align: unset;           
-        }
-        header img{
-            margin-bottom: 50px;
-        }
-        header div{
-            display: block;            
-           
-        }
-        header p{
-            position: absolute;
+        margin: 0;
+       
+       }
+       header div p{
+        vertical-align: middle;
+        margin: 0;
+       }
+       header div img {
+        vertical-align: middle ;
+       }
+       
+       header img{
+        margin: 0;
+       }
+       iframe{
+        width: 50%;
+       }
+       section{
+        width: 50%;
+       }
 
-        }
-        header nav{
-            position: absolute;
-            left: 1100px;
-            height: 70px;
-        }
-        header ul li{
-            font-size: 2.6rem;
-        }
-        h1{
-            font-size:7rem;
-            margin-right: 10%;
-        }
-        p {
-            font-size: 2.3rem;
-            
-        }
-        h2{
-            font-size:2.7rem;
-            font-weight:bold;
-        }
-        article ul li,ol li{
-            font-size: 2.5rem;
-            margin-left: 4%;
-        }
-        table{
-            margin-inline: auto;
-            width: 70vw;
-            height: 50vh;
-            font-size: 2rem;
-        }
-        section{
-            height: 300px;
-        }
-        }
-        section h2{
-            background-color: rgb(163, 163, 163);
-            font-size:2.6rem ;
-            text-transform: none;
-        }
-        section p{
-            font-size: 2.4rem;
-        }
-        input{
-            width: 70%;
-            height: 64px;
-            font-size: 1.6rem;
-        }
-        button{
-            height: 64px;
-            width: 160px;      
-        }
-        form{
-            margin-top: 60px;
-        }
-        aside h2{
-            font-size: 3.8rem;
-        }
-        .cards{
-            height: 152px;;
-        }
-        footer{
-            height:220px;
-            font-size: 2.3rem;
-            margin-bottom: 0;
-        }
-        footer p{
-            font-size: 2.4rem;
-        }
-    
-    
-    
+    }
