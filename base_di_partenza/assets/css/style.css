@@ -292,77 +292,88 @@ footer a {
         font-size: 2.4rem;
     }
 
-    @media screen and (min-width: 1200px) {
-        header{
+@media screen and (min-width: 1200px) {
+    header{
             text-align: unset;
             height: 100px;
             margin: 0;
             padding:18px;
         
         }
-        header div img{
+    header div img{
             width: 160px;
         }
-        #logo{
+    #logo{
             margin-left: 50px;
         }
-        #navText{
+     #navText{
             font-size: 2rem;
-        margin-left: 38px;
+            margin-left: 38px;
         }
-         .navList{
+        .navList{
             font-size: 1.9rem;
         }
 
-       header div, header nav{
-        display: inline-block;             
+    header div, header nav{
+            display: inline-block;             
        }
-       header nav{
+    header nav{
         position: relative;
         left: 310px;
         vertical-align: middle;
        }
-       header div img, header div p{
+    header div img, header div p{
         display: inline-block;
         margin: 0;      
        }
-       header div img{
+    header div img{
        
        }
-       header div p{
+    header div p{
         vertical-align: middle;
         margin: 0;
        }
-       header div img {
+    header div img {
         vertical-align: middle ;
        }
        
-       header img{
+    header img{
         margin: 0;
        }
-       iframe{
+       main{
+        margin-top: 20px;
+       }
+       h1{
+        font-size: 6rem;
+       }
+    iframe{
         width: 50%;
        }
-       section{
+    section{
         width: 50%;
        }
-       iframe{
+    iframe{
         display: inline-block;
         width: 50%;
         height: 300px;
         vertical-align: middle;
        }
-       section{display: inline-block;
+    section{display: inline-block;
        width: 48%;
        vertical-align: middle;
        border-radius: 20px;
        }
-       input{
+    input{
         height: 44px;
        }
-       button{
+    button{
         height: 44px;
         width: 108px;
+       }
+       .cards{
+        display: inline-block;
+        width: 35%;
+        margin-left: -2%;
        }
 
     }
